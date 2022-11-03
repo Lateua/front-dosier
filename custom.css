@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+    width: 100%;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-120{
+    padding-top: 120px;
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.heading-1{
+    font-family: Arial;
+    font-size: 160px;
+    font-weight: bold;
+    color: #141212;
+}
+.heading-2{
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: #141212;
+}
+.font-bg{
+    font-family: 'Forum', cursive;
+    background: #8DAFA6 0% 0% no-repeat padding-box;
+    font-size: 32px;
+    padding: 10px;
+    color: #fff;
+}
+.bg-brown-gradient-180{
+    background: linear-gradient(180deg, transparent 20%, #895135 20%);
+}
+.bg-brown-gradient-90{
+    background: linear-gradient(90deg, transparent 50%, #895135 50%);
+}
+.img-break-layout{
+    width: 100%;
+    border: 20px solid #fff;
+}
+.padding-rm{
+    padding: 0;
+}
+.bg-gray{
+    background: #e8e3dd;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 57px;
+    display: block;
+    text-align: center;
+    color: #707070;
+}
+
+.keywords .keyword:not(:last-child){
+    margin: 32px 0px;
+}
+.keywords .keyword{
+    font-family: 'Forum', cursive;
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    color: #707070;
+}
+
+.pie{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.pie-int{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/*03-11-2022 Añadido por Raquel*/
+
+.circle-1{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #1f1f1f 0% 0% no-repeat padding-box;
+}
+.circle-2{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #863D23 0% 0% no-repeat padding-box;
+}
+.circle-3{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #F5F1EE 0% 0% no-repeat padding-box;
+}
+.align-circle-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.styles {
+    color: #707070;
+    font-family: 'Forum', cursive;
+    font-size: 31px;
+}
+.styles-text {
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+.colors-title{
+    display: block;
+    font-size: 90px;
+    font-family: 'Forum', cursive;
+    color: #707070;
+    text-align: left;
+}
+.bar{  
+    margin-top: -550px;
+    width: 750px;
+    height: 699px;
+    border-bottom: 8px solid #707070;
+    transform: matrix(-0.40, 0.50, -0.30, 0.78, 0, 0); 
+}
+.colors-text {
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.colors {
+    width: 181px;
+    height: 181px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    margin: 0 15px;
+}
+.mood-text {
+    color: #707070;
+    font-family: 'Forum', cursive;
+    font-size: 41px;
+}
